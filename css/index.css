@@ -1,0 +1,142 @@
+.changjing {
+    width: 600px;
+    height: 600px;
+    box-shadow: 5px 5px 10px #14526B;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background:#14526B;
+}
+.color {
+    width:18px;
+    height:18px;
+    border:1px solid #034B78;
+    float: left;
+}
+.she {
+    width: 18px;
+    height: 18px;
+    background-image: url(../she.jpg);
+    background-size: cover;
+}
+.shiwu {
+    width: 18px;
+    height: 18px;
+    background-image: url(../shiwu.jpg);
+    background-size: cover;
+}
+.play{
+    width:185px;
+    height:65px;
+    background:url(../gai.jpg);
+    background-position: -5px -5px;
+    border-radius:40px;
+    position: absolute;
+    left:85px;
+    top:30px;
+    color:#fff;
+    font-size: 30px;
+    line-height: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+.again{
+    width:185px;
+    height:65px;
+    background:url(../gai.jpg);
+    background-position: -5px -5px;
+    border-radius:40px;
+    position: absolute;
+    left:85px;
+    top:120px;
+    color:#fff;
+    font-size: 30px;
+    line-height: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+.stop{
+    width:185px;
+    height:65px;
+    background:url(../gai.jpg);
+    background-position: -5px -5px;
+    border-radius:40px;
+    position: absolute;
+    left:85px;
+    top:210px;
+    color:#fff;
+    font-size: 30px;
+    line-height: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+.out{
+    width: 200px;
+    height:152px;
+    background:url(../3.jpg);
+    border-radius: 10px;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    color:#fff;
+    font-size: 30px;
+    line-height: 70px;
+    text-align: center;
+}
+.body{
+    width:auto;
+    height:auto;
+    background:url(../7.jpg) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    z-index: 5000;
+    transform:translateY(0);
+    transition:all 0.8s ease;
+}
+.kai{
+    width:100px;
+    height:100px;
+    background:url(../anniu.jpg);
+    background-position: -12px -12px;
+/*     background-size:cover; */
+    border-radius:50%;
+    position: absolute;
+    left:50%;
+    top:65%;
+    margin-left: -50px;
+    color:#fff;
+    font-size: 30px;
+    line-height: 70px;
+    text-align: center;
+    z-index: 6000;
+    cursor:pointer;
+    transform:translateY(0);
+    transition:all 0.8s ease;
+}
+.donghua.one .body{
+    transform:translateY(-100%);
+}
+.donghua.one .kai{
+    transform:translateY(-800px);
+}
+.body2{
+    width:auto;
+    height:auto;
+    background:url(../6.jpg);
+    background-size: cover;
+    position: absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+}
